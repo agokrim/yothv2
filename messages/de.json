@@ -19,7 +19,7 @@
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English}  ar {ar عربي} fr {fr Français}other {Unknown}}"
+     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} sp {sp Español}  fr {fr Français} ar {ar عربي}other {Unknown}}"
   },
   "Manifest": {
     "description": "",

@@ -20,7 +20,7 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English}  ar {ar عربي} fr {fr Français}other {Unknown}}"
+     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} sp {sp Español}  fr {fr Français} ar {ar عربي}other {Unknown}}"
   },
   "Manifest": {
     "name": "next-intl example"
@@ -53,7 +53,7 @@
   },
 
   "PrivacypolicyPage": {
-    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
+    "description": "<p>aaThe pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
     "title": "Pathnames"
   }
 

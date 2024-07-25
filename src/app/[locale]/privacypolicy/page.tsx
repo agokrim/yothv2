@@ -14,9 +14,8 @@ export default function PrivacypolicyPage({params: {locale}}: Props) {
 
   return (
     <PageLayout title={t('title')}>
-      <div className="max-w-[490px]">
-        <h1>Privacy policy </h1>
-        {t.rich('description', {
+      <div className="">
+           {t.rich('description', {
           p: (chunks) => <p className="mt-4">{chunks}</p>,
           code: (chunks) => (
             <code className="font-mono ">{chunks}</code>

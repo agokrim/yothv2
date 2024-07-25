@@ -4,8 +4,9 @@
     "title": "Something went wrong!"
   },
   "IndexPage": {
-    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
-    "title": "next-intl example"
+    "description": "Download YouTube thumbnail images of any quality for free! Our user-friendly tool allows you to easily download high-quality thumbnails. Simply paste the video URL into the input below and click \"Get Thumbnail Image\" to instantly grab your thumbnail.",
+    "description2": "and click \\\"<b>Get Thumbnail Image</b>\\\" to instantly grab your thumbnail.",
+    "title": "Youtube Thumbnail Downloader"
   },
   "YoutubeForm":{
     "btn-download": "Get Thumbnail Images",
@@ -20,7 +21,7 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English}  ar {ar عربي} fr {fr Français}other {Unknown}}"
+  "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} sp {sp Español}  fr {fr Français} ar {ar عربي}other {Unknown}}"
   },
   "Manifest": {
     "name": "next-intl example"
@@ -54,7 +55,7 @@
   },
 
   "PrivacypolicyPage": {
-    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
-    "title": "Pathnames"
+    "description": "<p>The Youtube thumbnail downloader, accessible from https://get-youtube-thumbnail.net, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Youtube thumbnail grabber and how we use it.</p><p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p><p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in get Youtube thumbnail web site. This policy is not applicable to any information collected offline or via channels other than this website.</p>",
+    "title": "Privacy Policy "
   }
 }
