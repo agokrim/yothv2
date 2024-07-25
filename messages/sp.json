@@ -4,12 +4,14 @@
     "title": "Something went wrong!"
   },
   "IndexPage": {
-    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
-    "title": "next-intl example"
+    "description": "¡Descarga imágenes en miniatura de YouTube de cualquier calidad gratis! Nuestra herramienta fácil de usar le permite descargar fácilmente miniaturas de alta calidad. Simplemente pegue la URL del video en la entrada a continuación y haga clic en \"Obtener imagen en miniatura\" para obtener su miniatura al instante.",
+    "title": "Youtube Thumbnail Downloader"
   },
   "YoutubeForm":{
-    "btn-download": "Get Thumbnail Images",
-    "enter-url":"Enter YouTube URL"
+    "btn-download": "Obtener imagen en miniatura",
+    "enter-url":"Ingrese la URL del video de YouTube",
+    "download-image":"Descargar imagen",
+    "thumbnail-options":"Opciones de miniatura"
 
   },
 
@@ -27,7 +29,8 @@
   },
   "Navigation": {
     "home": "Home",
-    "pathnames": "Pathnames"
+    "pathnames": "Blog",
+     "privacypolicy": "Política de privacidad"
   },
   "NotFoundPage": {
     "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
@@ -53,8 +56,8 @@
   },
 
   "PrivacypolicyPage": {
-    "description": "<p>azaz The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
-    "title": "Pathnames"
+    "description": "<p>El descargador de miniaturas de Youtube, accesible desde https://get-youtube-thumbnail.net, una de nuestras principales prioridades es la privacidad de nuestros visitantes. Este documento de Política de privacidad contiene tipos de información que recopila y registra el capturador de miniaturas de Youtube y cómo la usamos. </p><p> Si tiene preguntas adicionales o requiere más información sobre nuestra Política de Privacidad, no dude en contactarnos </p><p> Esta Política de Privacidad se aplica únicamente a nuestras actividades en línea y es válida para los visitantes de nuestro sitio web con respecto a la información que compartieron y/o recopilaron en el sitio web de obtención de miniaturas de Youtube. Esta política no se aplica a ninguna información recopilada fuera de línea o a través de canales distintos de este sitio web.</p>",
+    "title": "Política de privacidad"
   }
 
   

@@ -10,8 +10,10 @@
   },
   "YoutubeForm":{
     "btn-download": "Get Thumbnail Images",
-    "enter-url":"Enter YouTube URL"
-
+    "enter-url":"Enter YouTube URL",
+     "download-image":"Download image",
+     "thumbnail-options":"Thumbnail Options"
+     
   },
 
  
@@ -28,7 +30,7 @@
   },
   "Navigation": {
     "home": "Home",
-    "pathnames": "Pathnames",
+    "pathnames": "Blog",
     "privacypolicy": "Privacy policy"
   },
   "NotFoundPage": {

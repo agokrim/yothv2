@@ -68,13 +68,13 @@ export default function YoutubeForm() {
       </div>
       {thumbnailOptions.length > 0 && (
         <div className="mt-8">
-          <h2 className="text-xl font-semibold mb-4">Thumbnail Options</h2>
+          <h2 className="text-xl font-semibold mb-4">{t('thumbnail-options')}</h2>
           <div className="grid gap-4 md:grid-cols-1 lg:grid-cols-1">
             {thumbnailOptions.map((option, index) => (
               <div key={index} className="thumbnail-option">
                 <div className="mb-2" >{option.resolution}</div>
                
-                <a className="btn-blue " target="_blank" rel="noopener noreferrer"  href={option.url} download>Download image</a>
+                <a className="btn-blue " target="_blank" rel="noopener noreferrer"  href={option.url} download>{t('download-image')}</a>
                 <div className="mt-2 flex justify-center items-center pt-2">
                   <img src={option.url} alt={`Thumbnail ${index + 1}`} />
                 </div>

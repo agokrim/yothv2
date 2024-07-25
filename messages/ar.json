@@ -54,7 +54,7 @@
   },
 
   "PrivacypolicyPage": {
-    "description": "<p>عند استخدام خدماتنا، فإنك تأتمننا على معلوماتك. نحن ندرك أن هذه مسؤولية كبيرة ونعمل بجدية لحماية معلوماتك ونمنحك التحكم فيها..</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
-    "title": "Pathnames"
+    "description": "<p>أداة تنزيل الصور المصغرة من Youtube، والتي يمكن الوصول إليها من https://get-youtube-thumbnail.net، إحدى أولوياتنا الرئيسية هي خصوصية زوارنا. تحتوي وثيقة سياسة الخصوصية هذه على أنواع المعلومات التي يتم جمعها وتسجيلها بواسطة YouTube Miniature Grabber وكيفية استخدامها..</p><p>إذا كانت لديك أسئلة إضافية أو كنت بحاجة إلى مزيد من المعلومات حول سياسة الخصوصية الخاصة بنا، فلا تتردد في الاتصال بنا. .</p><p>تنطبق سياسة الخصوصية هذه فقط على أنشطتنا عبر الإنترنت وهي صالحة لزوار موقعنا فيما يتعلق بالمعلومات التي شاركوها و/أو جمعوها في موقع الويب المصغر لـ Youtube. لا تنطبق هذه السياسة على أي معلومات يتم جمعها دون اتصال بالإنترنت أو عبر قنوات أخرى غير هذا الموقع..</p>",
+    "title": "سياسة الخصوصية"
   }
 }

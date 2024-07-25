@@ -27,7 +27,8 @@
   },
   "Navigation": {
     "home": "Start",
-    "pathnames": "Pfadnamen"
+    "pathnames": "Blog",
+     "privacypolicy": "Datenschutzrichtlinie"
   },
   "NotFoundPage": {
     "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
@@ -53,7 +54,7 @@
   },
 
   "PrivacypolicyPage": {
-    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
-    "title": "Pathnames"
+    "description": "<p>Der YouTube-Miniatur-Downloader, zugänglich über https://get-youtube-thumbnail.net, ist für unsere wichtigsten Besucher die Privatsphäre unserer Besucher. Dieses Dokument der Datenschutzpolitik enthält Informationstipps, die der YouTube-Miniatur-Knipser und wie wir ihn verwenden, rekopieren und registrieren. </p><p> Wenn Sie zusätzliche Informationen benötigen oder weitere Informationen über unsere Datenschutzpolitik benötigen, wenden Sie sich bitte nicht an uns. </p><p> Diese Datenschutzrichtlinie wird nur für unsere Online-Aktivitäten angewendet und ist für Besucher gültig Auf unserer Website finden Sie Informationen zu den Informationen, die Sie auf der Website zum Abrufen von Miniaturen von YouTube erhalten. Diese Politik ist nicht darauf ausgelegt, Informationen über die Leitung oder die Kanäle dieser Website zu rekonstruieren.</p>",
+    "title": "Datenschutzrichtlinie"
   }
 }
