@@ -1,8 +1,10 @@
 import {useTranslations} from 'next-intl';
 import {unstable_setRequestLocale} from 'next-intl/server';
+import {getTranslations} from 'next-intl/server';
 import PageLayout from '@/components/PageLayout';
 import YoutubeForm from '@/components/YoutubeForm';
-
+import { Metadata } from "next";
+import {ImageResponse} from 'next/og';
 type Props = {
   params: {locale: string};
 };
@@ -21,6 +23,7 @@ export default function IndexPage({params: {locale}}: Props) {
             <code className="font-mono ">{chunks}</code>
           )
         })}
+    
       </p>
       <div>
         <YoutubeForm/>
@@ -28,4 +31,44 @@ export default function IndexPage({params: {locale}}: Props) {
      
     </PageLayout>
   );
-}
+};
+
+export async function generateMetadata({params: {locale}}: Props) {
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+  //unstable_setRequestLocale(locale);
+
+  //const t = useTranslations('Seo');
+ 
+  return {
+    title: t('title'),
+    description: t('description'),
+    keywords: [
+      "YouTube Thumbnail",
+      "Thumbnail Downloader",
+      "YouTube thumbnail grabber",
+      "get YouTube thumbnail ",
+      
+    
+    ],
+    openGraph: {
+      url: "https://get-youtube-thumbnail.net",
+      type: "website",
+      title: t('title'),
+      description:
+      t('description'),
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: t('title'),
+        description:
+        t('description'),
+        creator: "@agokrim",
+        site: "@agokrim",
+       
+      },
+      alternates: {
+        canonical: "https://get-youtube-thumbnail.net"
+      }
+  };
+};
+
