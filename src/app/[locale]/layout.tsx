@@ -1,6 +1,8 @@
 import clsx from 'clsx';
 import {Inter} from 'next/font/google';
 import {NextIntlClientProvider} from 'next-intl';
+//import useTextDirection from "../../_hooks/useTextDirection";
+import { isRtlLang } from "rtl-detect";
 import {
   getMessages,
   getTranslations,
@@ -10,7 +12,9 @@ import {ReactNode} from 'react';
 import Navigation from '@/components/Navigation';
 import {locales} from '@/config';
 
+
 const inter = Inter({subsets: ['latin']});
+
 
 type Props = {
   children: ReactNode;
@@ -37,13 +41,16 @@ export default async function LocaleLayout({
 }: Props) {
   // Enable static rendering
   unstable_setRequestLocale(locale);
+  const dir = isRtlLang(locale) ? "rtl" : "ltr";;
+
+ 
 
   // Providing all messages to the client
   // side is the easiest way to get started
   const messages = await getMessages();
 
   return (
-    <html className="h-full" lang={locale}>
+    <html className="h-full" lang={locale} dir={dir}>
       <body className={clsx(inter.className, 'flex h-full flex-col')}>
         <NextIntlClientProvider messages={messages}>
           <Navigation />

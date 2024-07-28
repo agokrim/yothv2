@@ -4,8 +4,8 @@
     "title": "Something went wrong!"
   },
   "IndexPage": {
-    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
-    "title": "next-intl example"
+    "description": "قم بتنزيل الصور المصغرة لفيديو اليوتيوب بأي جودة مجانًا! تتيح لك أداتنا سهلة الاستخدام تنزيل صور مصغرة عالية الجودة بسهولة. ما عليك سوى نسخ رابط الفيديو والصقه في شريط البحث أدناه ثم وانقر على \"الحصول على صورة مصغرة\" واختر الحجم ثم قم بتنزيل الصورة.",
+    "title": "أداة تنزيل الصورة المصغرة من فيديوهات اليوتيوب"
   },
   "YoutubeForm":{
     "btn-download": "الحصول على الصور المصغرة",
@@ -26,8 +26,8 @@
     "name": "next-intl example"
   },
   "Navigation": {
-    "home": "Home",
-    "pathnames": "Blog",
+    "home": "الصفحة الرئيسية",
+    "pathnames": "المدونة",
     "privacypolicy": "سياسة الخصوصية"
   },
   "NotFoundPage": {
@@ -56,5 +56,15 @@
   "PrivacypolicyPage": {
     "description": "<p>أداة تنزيل الصور المصغرة من Youtube، والتي يمكن الوصول إليها من https://get-youtube-thumbnail.net، إحدى أولوياتنا الرئيسية هي خصوصية زوارنا. تحتوي وثيقة سياسة الخصوصية هذه على أنواع المعلومات التي يتم جمعها وتسجيلها بواسطة YouTube Miniature Grabber وكيفية استخدامها..</p><p>إذا كانت لديك أسئلة إضافية أو كنت بحاجة إلى مزيد من المعلومات حول سياسة الخصوصية الخاصة بنا، فلا تتردد في الاتصال بنا. .</p><p>تنطبق سياسة الخصوصية هذه فقط على أنشطتنا عبر الإنترنت وهي صالحة لزوار موقعنا فيما يتعلق بالمعلومات التي شاركوها و/أو جمعوها في موقع الويب المصغر لـ Youtube. لا تنطبق هذه السياسة على أي معلومات يتم جمعها دون اتصال بالإنترنت أو عبر قنوات أخرى غير هذا الموقع..</p>",
     "title": "سياسة الخصوصية"
+  },
+  "Metadata":{
+    "title":"Download YouTube Thumbnail – YouTube Thumbnail Downloader",
+    "description":"Download YouTube thumbnail images of any quality for free in 4 different image qualities SD, MQ, HQ & HD 1920x1080 without registration",
+    "keywords":"YouTube Thumbnail,Thumbnail Downloader, thumbnail grabber",
+    "openGraphTitle":"Download YouTube Thumbnail – YouTube Thumbnail Downloader",
+    "openGraphDescription":"Download YouTube thumbnail images of any quality for free in 4 different image qualities SD, MQ, HQ & HD 1920x1080 without registration",
+    "twitterTitle":"Download YouTube Thumbnail – YouTube Thumbnail Downloader",
+    "twitterDescription":"Download YouTube thumbnail images of any quality for free in 4 different image qualities SD, MQ, HQ & HD 1920x1080 without registration"
+    
   }
 }
