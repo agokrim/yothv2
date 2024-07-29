@@ -44,10 +44,10 @@ export async function generateMetadata({params: {locale}}: Props) {
     title: t('title'),
     description: t('description'),
     keywords: [
-      "YouTube Thumbnail",
-      "Thumbnail Downloader",
-      "YouTube thumbnail grabber",
-      "get YouTube thumbnail ",
+      t('keyword1'),
+      t('keyword2'),
+      t('keyword3'),
+ 
       
     
     ],

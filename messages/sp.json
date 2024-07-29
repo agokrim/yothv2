@@ -58,6 +58,18 @@
   "PrivacypolicyPage": {
     "description": "<p>El descargador de miniaturas de Youtube, accesible desde https://get-youtube-thumbnail.net, una de nuestras principales prioridades es la privacidad de nuestros visitantes. Este documento de Política de privacidad contiene tipos de información que recopila y registra el capturador de miniaturas de Youtube y cómo la usamos. </p><p> Si tiene preguntas adicionales o requiere más información sobre nuestra Política de Privacidad, no dude en contactarnos </p><p> Esta Política de Privacidad se aplica únicamente a nuestras actividades en línea y es válida para los visitantes de nuestro sitio web con respecto a la información que compartieron y/o recopilaron en el sitio web de obtención de miniaturas de Youtube. Esta política no se aplica a ninguna información recopilada fuera de línea o a través de canales distintos de este sitio web.</p>",
     "title": "Política de privacidad"
+  },
+  "Metadata":{
+    "title":"Descargar miniaturas de YouTube - Descargador de miniaturas de YouTube",
+    "description":"Descargue imágenes en miniatura de YouTube de cualquier calidad de forma gratuita en 4 calidades de imagen diferentes SD, MQ, HQ y HD 1920x1080 sin registrarse",
+    "keyword1":"Miniatura de vídeo de YouTube",
+    "keyword2":"Descargador de miniaturas",
+    "keyword3":"Obtener miniatura de YouTube",
+    "openGraphTitle":"Download YouTube Thumbnail – YouTube Thumbnail Downloader",
+    "openGraphDescription":"Download YouTube thumbnail images of any quality for free in 4 different image qualities SD, MQ, HQ & HD 1920x1080 without registration",
+    "twitterTitle":"Download YouTube Thumbnail – YouTube Thumbnail Downloader",
+    "twitterDescription":"Download YouTube thumbnail images of any quality for free in 4 different image qualities SD, MQ, HQ & HD 1920x1080 without registration"
+    
   }
 
   

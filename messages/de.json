@@ -4,8 +4,8 @@
     "title": "Etwas ist schief gelaufen!"
   },
   "IndexPage": {
-    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
-    "title": "next-intl Beispiel"
+    "description": "Laden Sie YouTube-Miniaturbilder in beliebiger Qualität kostenlos herunter! Mit unserem benutzerfreundlichen Tool können Sie ganz einfach hochwertige Miniaturbilder herunterladen. Fügen Sie einfach die Video-URL in das unten stehende Feld ein und klicken Sie auf \"Miniaturbilder abrufen\" , um sofort Ihr Miniaturbild abzurufen.",
+    "title": "Youtube Thumbnail Downloader"
   },
 
   "YoutubeForm":{
@@ -56,5 +56,17 @@
   "PrivacypolicyPage": {
     "description": "<p>Der YouTube-Miniatur-Downloader, zugänglich über https://get-youtube-thumbnail.net, ist für unsere wichtigsten Besucher die Privatsphäre unserer Besucher. Dieses Dokument der Datenschutzpolitik enthält Informationstipps, die der YouTube-Miniatur-Knipser und wie wir ihn verwenden, rekopieren und registrieren. </p><p> Wenn Sie zusätzliche Informationen benötigen oder weitere Informationen über unsere Datenschutzpolitik benötigen, wenden Sie sich bitte nicht an uns. </p><p> Diese Datenschutzrichtlinie wird nur für unsere Online-Aktivitäten angewendet und ist für Besucher gültig Auf unserer Website finden Sie Informationen zu den Informationen, die Sie auf der Website zum Abrufen von Miniaturen von YouTube erhalten. Diese Politik ist nicht darauf ausgelegt, Informationen über die Leitung oder die Kanäle dieser Website zu rekonstruieren.</p>",
     "title": "Datenschutzrichtlinie"
+  },
+  "Metadata":{
+    "title":"YouTube-Thumbnail herunterladen – YouTube-Thumbnail-Downloader",
+    "description":"Laden Sie YouTube-Miniaturbilder in beliebiger Qualität kostenlos in 4 verschiedenen Bildqualitäten SD, MQ, HQ und HD 1920 x 1080 ohne Registrierung herunter",
+    "keyword1":"YouTube-Vorschaubild",
+    "keyword2":"Miniaturbild-Downloader",
+    "keyword3":"YouTube-Thumbnail-Grabber",
+    "openGraphTitle":"Download YouTube Thumbnail – YouTube Thumbnail Downloader",
+    "openGraphDescription":"Download YouTube thumbnail images of any quality for free in 4 different image qualities SD, MQ, HQ & HD 1920x1080 without registration",
+    "twitterTitle":"Download YouTube Thumbnail – YouTube Thumbnail Downloader",
+    "twitterDescription":"Download YouTube thumbnail images of any quality for free in 4 different image qualities SD, MQ, HQ & HD 1920x1080 without registration"
+    
   }
 }

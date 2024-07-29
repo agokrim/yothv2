@@ -11,6 +11,8 @@ import {
 import {ReactNode} from 'react';
 import Navigation from '@/components/Navigation';
 import {locales} from '@/config';
+import { Analytics } from '@vercel/analytics/react';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 const inter = Inter({subsets: ['latin']});
@@ -55,7 +57,10 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <Navigation />
           {children}
+
         </NextIntlClientProvider>
+        <GoogleAnalytics gaId="G-D466SRX2FY" />
+       <Analytics />
       </body>
     </html>
   );
