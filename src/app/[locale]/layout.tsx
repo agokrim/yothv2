@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import {Inter} from 'next/font/google';
 import {NextIntlClientProvider} from 'next-intl';
 //import useTextDirection from "../../_hooks/useTextDirection";
-import { isRtlLang } from "rtl-detect";
+import { isRtlLang } from 'rtl-detect';
 import {
   getMessages,
   getTranslations,
@@ -43,7 +43,7 @@ export default async function LocaleLayout({
 }: Props) {
   // Enable static rendering
   unstable_setRequestLocale(locale);
-  const dir = isRtlLang(locale) ? "rtl" : "ltr";;
+  const dir = isRtlLang(locale) ? 'rtl' : 'ltr';
 
  
 
