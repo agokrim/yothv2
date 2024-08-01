@@ -1,6 +1,7 @@
 import {useTranslations} from 'next-intl';
-import {unstable_setRequestLocale} from 'next-intl/server';
+import { getTranslations,unstable_setRequestLocale} from 'next-intl/server';
 import PageLayout from '@/components/PageLayout';
+
 
 type Props = {
   params: {locale: string};
@@ -11,6 +12,8 @@ export default function PrivacypolicyPage({params: {locale}}: Props) {
   unstable_setRequestLocale(locale);
 
   const t = useTranslations('PrivacypolicyPage');
+
+  
 
   return (
     <PageLayout title={t('title')}>
@@ -24,4 +27,17 @@ export default function PrivacypolicyPage({params: {locale}}: Props) {
       </div>
     </PageLayout>
   );
-}
+};
+
+export async function generateMetadata({params: {locale}}: Props) {
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+  //unstable_setRequestLocale(locale);
+
+  //const t = useTranslations('Seo');
+ 
+  return {
+    title: t('privacytitle'),
+    description: t('privacydescription'),
+    
+  };
+};

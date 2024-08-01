@@ -13,6 +13,7 @@ import Navigation from '@/components/Navigation';
 import {locales} from '@/config';
 import { Analytics } from '@vercel/analytics/react';
 import { GoogleAnalytics } from '@next/third-parties/google'
+import Document, { Head } from "next/document";
 
 
 const inter = Inter({subsets: ['latin']});
@@ -53,7 +54,25 @@ export default async function LocaleLayout({
 
   return (
     <html className="h-full" lang={locale} dir={dir}>
+
       <body className={clsx(inter.className, 'flex h-full flex-col')}>
+      <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/favicon/apple-touch-icon.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon/favicon-32x32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon/favicon-16x16.png"
+          />
         <NextIntlClientProvider messages={messages}>
           <Navigation />
           {children}
