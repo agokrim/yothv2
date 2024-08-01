@@ -5,7 +5,7 @@
   },
   "IndexPage": {
     "description": "Téléchargez gratuitement des images miniatures YouTube de n’importe quelle qualité ! Notre outil convivial vous permet de télécharger facilement des vignettes de haute qualité. Collez simplement l'URL de la vidéo dans l'entrée ci-dessous et cliquez sur \"Obtenir une image miniature\" pour récupérer instantanément votre miniature..",
-    "title": "next-intl example"
+    "title": "Youtube Thumbnail Downloader"
   },
   "YoutubeForm":{
     "btn-download": "Obtenir des images miniatures",
