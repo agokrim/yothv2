@@ -5,6 +5,8 @@ import {getPathname} from '@/navigation';
 export default function sitemap(): MetadataRoute.Sitemap {
   const keys = Object.keys(pathnames) as Array<keyof typeof pathnames>;
 
+  console.log("site map");
+
   function getUrl(
     key: keyof typeof pathnames,
     locale: (typeof locales)[number]

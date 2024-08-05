@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://youtubethumbnail.net/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="http://www.mysite.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="http://www.mysite.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="http://www.mysite.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://www.mysite.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="sp" href="http://www.mysite.com/sp/"/>
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.net/en/privacypolicy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="http://www.mysite.com/en/privacypolicy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="http://www.mysite.com/de/privacypolicy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="http://www.mysite.com/fr/privacypolicy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://www.mysite.com/ar/privacypolicy"/>
+    <xhtml:link rel="alternate" hreflang="sp" href="http://www.mysite.com/sp/privacypolicy"/>
+  </url>
+</urlset>
+
+
