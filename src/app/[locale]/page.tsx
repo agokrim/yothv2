@@ -3,10 +3,36 @@ import {unstable_setRequestLocale} from 'next-intl/server';
 import {getTranslations} from 'next-intl/server';
 import PageLayout from '@/components/PageLayout';
 import YoutubeForm from '@/components/YoutubeForm';
+import Accordion from '@/components/Accordion';
+
 import { Metadata } from "next";
 import {ImageResponse} from 'next/og';
 type Props = {
   params: {locale: string};
+};
+
+/* const items = [
+  { title: 'What is React?', content: 'React is a JavaScript library for building user interfaces.' },
+  { title: 'What is Tailwind CSS?', content: 'Tailwind CSS is a utility-first CSS framework.' },
+  { title: 'What is TypeScript?', content: 'TypeScript is a typed superset of JavaScript.' },
+]; */
+ 
+
+
+
+
+type AccordionItemProps = {
+  title: string;
+  content: string;
+  id: string;
+};
+
+const generateItems = (t: any): AccordionItemProps[] => {
+  return Array(7).fill(null).map((_, i) => ({
+    title: t(`q${i + 1}`),
+    content: t(`a${i + 1}`),
+    id: `accordion-content-${i}` // Unique ID for each item
+  }));
 };
 
 export default function IndexPage({params: {locale}}: Props) {
@@ -14,6 +40,8 @@ export default function IndexPage({params: {locale}}: Props) {
   unstable_setRequestLocale(locale);
 
   const t = useTranslations('IndexPage');
+  const tt = useTranslations('FAQ');
+  const items = generateItems(tt);
     
   return (
     <PageLayout title={t('title')}>
@@ -28,6 +56,15 @@ export default function IndexPage({params: {locale}}: Props) {
       </p>
       <div>
         <YoutubeForm/>
+      </div>
+      
+      
+      <div>
+        <div className="p-4">
+       {/*  <Accordion itemKeys={itemKeys} /> */}
+       <h2 className='text-2xl font-semibold mb-4 mt-8'>{tt('title')}</h2>
+       <Accordion items={items} />
+        </div>
       </div>
      
     </PageLayout>
