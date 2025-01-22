@@ -89,7 +89,7 @@ export async function generateMetadata({params: {locale}}: Props) {
     
     ],
     openGraph: {
-      url: "https://get-youtube-thumbnail.net",
+      url: "https://youtubethumbnail.net",
       type: "website",
       title: t('title'),
       description:
@@ -105,7 +105,7 @@ export async function generateMetadata({params: {locale}}: Props) {
        
       },
       alternates: {
-        canonical: "https://get-youtube-thumbnail.net"
+        canonical: "https://youtubethumbnail.net"
       }
   };
 };
