@@ -1,2 +1,4 @@
 User-Agent: *
 Allow: *
+Disallow: /blog/
+Sitemap: https://youtubethumbnail.net/sitemap.xml

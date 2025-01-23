@@ -115,6 +115,9 @@ export async function generateMetadata({params: {locale}}: Props) {
           'ar': '/ar'
         },
       },
+      verification: {
+            yandex: "77cc26a2c81eae86",
+    },
   };
 };
 
