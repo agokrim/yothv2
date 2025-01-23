@@ -104,9 +104,17 @@ export async function generateMetadata({params: {locale}}: Props) {
         site: "@agokrim",
        
       },
+      metadataBase: new URL('https://youtubethumbnail.net'),
       alternates: {
-        canonical: "https://youtubethumbnail.net"
-      }
+        canonical: '/',
+        languages: {
+          'en': '/en',
+          'fr': '/fr',
+          'de': '/de',
+          'es': '/es',
+          'ar': '/ar'
+        },
+      },
   };
 };
 

@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="http://www.mysite.com/de/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="http://www.mysite.com/fr/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="http://www.mysite.com/ar/"/>
-    <xhtml:link rel="alternate" hreflang="sp" href="http://www.mysite.com/sp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="http://www.mysite.com/es/"/>
   </url>
   <url>
     <loc>https://youtubethumbnail.net/en/privacypolicy</loc>
@@ -14,7 +14,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="http://www.mysite.com/de/privacypolicy"/>
     <xhtml:link rel="alternate" hreflang="fr" href="http://www.mysite.com/fr/privacypolicy"/>
     <xhtml:link rel="alternate" hreflang="ar" href="http://www.mysite.com/ar/privacypolicy"/>
-    <xhtml:link rel="alternate" hreflang="sp" href="http://www.mysite.com/sp/privacypolicy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="http://www.mysite.com/es/privacypolicy"/>
   </url>
 </urlset>
 

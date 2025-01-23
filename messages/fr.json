@@ -22,7 +22,7 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} sp {sp Español}  fr {fr Français} ar {ar عربي}other {Unknown}}"
+     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} es {es Español}  fr {fr Français} ar {ar عربي}other {Unknown}}"
   },
   "Manifest": {
     "name": "next-intl example"
